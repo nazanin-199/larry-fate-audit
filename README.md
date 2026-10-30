@@ -13,7 +13,7 @@ Methods like [CellTempo](https://doi.org/10.64898/2026.02.08.704720) learn to fo
 
 | File | Purpose |
 |---|---|
-| `larry_fate_audit_complete.ipynb` | The whole project: concepts, all code in run order, results, interpretations, exercises, a claims ledger |
+| `larry_fate_audit.ipynb` | The whole project: concepts, all code in run order, results, interpretations, exercises, a claims ledger |
 | `README.md` | This file |
 
 Each step in the notebook follows the same pattern: *concept note → code → interpretation of the output*. Tags mark status: `[from run]` (output stored from a real run), `[NEW — not yet run]`, and `[post-hoc]` (chosen after seeing results, so exploratory).

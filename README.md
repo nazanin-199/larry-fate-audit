@@ -16,7 +16,7 @@ Methods like [CellTempo](https://doi.org/10.64898/2026.02.08.704720) learn to fo
 | `larry_fate_audit.ipynb` | The whole project: concepts, all code in run order, results, interpretations, exercises, a claims ledger |
 | `README.md` | This file |
 
-Each step in the notebook follows the same pattern: *concept note → code → interpretation of the output*. Tags mark status: `[from run]` (output stored from a real run), `[NEW — not yet run]`, and `[post-hoc]` (chosen after seeing results, so exploratory).
+Each step in the notebook follows the same pattern: *concept note → code → interpretation of the output*.
 
 ## Main findings (details in the notebook)
 
@@ -31,12 +31,6 @@ Primary task: predict the late fate of 534 day-2 clones (49,116 cells, mouse hae
 ## What it does not show
 
 The released CellTempo's behaviour on LARRY; velocity-derived supervision; negative-binomial tokenization on raw counts; any biological mechanism. Clone-mates are an imperfect proxy for fate, 534 clones limits statistical power, and many hypotheses in the notebook are explicitly marked **untested**. The final section is a claims ledger separating what was evaluated from what was not.
-
-## Run it
-
-1. Open the notebook on Kaggle with **Internet on**; a GPU is needed only for Part 8.
-2. Run top to bottom (about 30–60 minutes on a T4). Paths assume `/kaggle/working`; other platforms need edits.
-3. Data are **downloaded at runtime**, not shipped here (see below).
 
 Long computations are checkpointed per fold with a settings fingerprint, so an interrupted session can resume. Appendix B lists run-order hazards (for example, `N_ITER` is changed globally in two cells).
 

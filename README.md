@@ -49,4 +49,4 @@ Fixed seeds, recorded library versions, a pre-specified protocol frozen before m
 
 An independent educational audit, not affiliated with the CellTempo authors. Please cite the original papers above for the data and the method being audited.
 
-**Author:** *your name* · feedback and corrections welcome via issues.
+feedback and corrections welcome via issues.

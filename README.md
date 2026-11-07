@@ -3,7 +3,7 @@
 **Can trajectory-learning models forecast fate decisions without clonal supervision?**
 A leakage-controlled evaluation on real lineage-tracing data.
 
-> **Scope, read first.** This project does **not** run the released CellTempo model. It uses simplified stand-ins (graph-based trajectory arms and small CellTempo-*style* models trained on PCA features) and scores them against independent clonal outcomes. Nothing here is a claim about the published model, velocity-based supervision, or long-horizon forecasting.
+> This project does **not** run the released CellTempo model. It uses simplified stand-ins (graph-based trajectory arms and small CellTempo-*style* models trained on PCA features) and scores them against independent clonal outcomes. Nothing here is a claim about the published model, velocity-based supervision, or long-horizon forecasting.
 
 ## The idea
 
